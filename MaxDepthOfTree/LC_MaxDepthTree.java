@@ -20,5 +20,6 @@ public class LC_MaxDepthTree {
 
     public static void main(String[] args) {
         // TreeNode treeNode = new TreeNode();
+        // it will work
     }
 }
