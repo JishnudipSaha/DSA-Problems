@@ -18,7 +18,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        // Bubble sorting
+        // Bubble sorting technique
         int[] arr = new int[]{7,2,1,4,8,3};
         arr = bubbleSort(arr);
         for(int i = 0; i < arr.length; i++){
