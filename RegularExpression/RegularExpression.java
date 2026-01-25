@@ -34,18 +34,13 @@ public class RegularExpression {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter string s: ");
         String s = sc.nextLine();
-
         System.out.print("Enter pattern p: ");
         String p = sc.nextLine();
-
         RegularExpression regularExpression = new RegularExpression();
         boolean result = regularExpression.isMatch(s, p);
-
         System.out.println("Does pattern match entire string? " + result);
-
         sc.close();
     }
 }
