@@ -23,6 +23,6 @@ public class TaskScheduler {
     }
     public static void main(String[] args) {
         TaskScheduler scheduler = new TaskScheduler();
-        System.out.println(scheduler.leastInterval(new char[]{'A', 'A', 'A', 'B', 'B', 'B'}, 2));;
+        System.out.println(scheduler.leastInterval(new char[]{'A', 'A', 'A', 'B', 'B', 'B'}, 2));
     }
 }
