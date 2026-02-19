@@ -31,10 +31,10 @@ public class InsertIntervals {
     }
 
     public static void main(String[] args) {
-        int[][] arr = insert(new int[][]{{1, 3}, {6, 9}}, new int[]{2, 5});
+        // int[][] arr = insert(new int[][]{{1, 3}, {6, 9}}, new int[]{2, 5});
         int[][] arr4 = insert(new int[][]{{1, 5}}, new int[]{2, 7});
-        int[][] arr3 = insert(new int[][]{{1, 3}, {6, 9}}, new int[]{2, 5});
-        int[][] arr1 = insert(new int[][]{{1,2},{3,5},{6,7},{8,10},{12,16}}, new int[]{4, 8}); // [[1,2],[3,10],[12,16]]
+        // int[][] arr3 = insert(new int[][]{{1, 3}, {6, 9}}, new int[]{2, 5});
+        // int[][] arr1 = insert(new int[][]{{1,2},{3,5},{6,7},{8,10},{12,16}}, new int[]{4, 8}); // [[1,2],[3,10],[12,16]]
 //        System.out.println(arr1.length);
         for (int[] ar: arr4){
             System.out.println(ar[0] + " " + ar[1]);
